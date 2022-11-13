@@ -1,0 +1,92 @@
+.start {
+  display: flex;
+  justify-content: space-between;
+  max-height: 200px;
+  background-image: linear-gradient(150deg, #2d1582 0%, #19a0ff 100%);
+}
+.start::before {
+  content: url("./../images/abstract1.svg");
+  width: 12%;
+}
+.start::after {
+  content: url("./../images/abstract2.svg");
+  width: 12%;
+  margin-top: auto;
+}
+.start_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  gap: 15px;
+}
+.start_wrapper h3 {
+  margin-top: 20px;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #00dffc;
+}
+.start_wrapper p {
+  font-size: 1.5rem;
+  color: var(--color-white);
+}
+.start_wrapper a {
+  padding: 20px 20px;
+  margin-bottom: 30px;
+  background-color: var(--color-white);
+  border-radius: 8px;
+  font-size: 1.2rem;
+}
+
+.start_grade {
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+}
+.start_card_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.start_card_item_star::before {
+  content: url("./../images/stars.svg");
+  width: 80px;
+  height: 80px;
+}
+.start_card_item_files::before {
+  content: url("./../images/file.svg");
+  width: 80px;
+  height: 80px;
+}
+.start_card_item_files p {
+  color: rgba(128, 128, 128, 0.442);
+}
+.start_card_item_files p .span_start {
+  color: black;
+}
+.start_avatar {
+  width: 80px;
+}
+.start_card_item_user p {
+  color: rgba(128, 128, 128, 0.442);
+}
+.start_card_item_user p .span_start {
+  color: black;
+}
+.start_card_item p {
+  font-size: 1.2rem;
+  max-width: 300px;
+  text-align: center;
+  line-height: 26px;
+}
+.start_card_item p span {
+  color: rgba(128, 128, 128, 0.442);
+}
+.start_border {
+  height: 90px;
+  width: 1px;
+  background-color: rgba(128, 128, 128, 0.442);
+  transform: rotate(15deg);
+}
